@@ -5,5 +5,5 @@ var App = require('./components/App');
 
 ReactDOM.render(
     <App />,
-    document.getElementById()
+    document.getElementById('app')
 )
