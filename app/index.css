@@ -5,9 +5,47 @@ body {
 
 #populist-intro {
    color: peachpuff;  
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+ul {
+    padding: -20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.pop-list{
+    display: flex;
+    justify-content: center;
+}
+
+.pop-list li{
+    margin: 12px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.selected-lang {
+    display: flex;
+    justify-content: center;
+    color:rgb(104, 28, 40);
+}
+
+.event-counter {
+    display:flex;
+    justify-content: center;
+    color: rgb(73, 14, 168)
 }
