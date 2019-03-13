@@ -52,7 +52,8 @@ class Populist extends React.Component {
             console.log('setting state');
             return {
                 selectedLang: lang,
-                eventCount: state.eventCount + 1
+                eventCount: state.eventCount + 1,
+                selectedLang2: null
             }
         }, function(){
             console.log('currentState ---> ', this.state);
